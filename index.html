@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Submit</title>
+</head>
+<body>
+    <fieldset>
+        <center>
+            <h1>Login Form</h1>
+        </center>
+        <hr>
+        <center>
+            <!-- login successful -->
+             <form action="./forms.html" method="get">
+             <!-- username -->
+             <label for="username">Username:</label>
+             <input type="text" name="username" placeholder="Enter your username" id="username" required>
+             <br>
+             <br>
+             <!-- password --> 
+             <label for="password">Password:</label>
+             <input type="text" name="password" placeholder="Enter your password" id="password" required>
+             <br>
+             <br>
+             <!-- login => loginSuccessful.html (see form action) -->
+             <input type="submit" value="Login">
+             <br>
+             <br>
+             <!-- forgot password => forgot.html -->
+             <a href="./forgot.html">
+                <button type="button">Forgot Password</button>
+             </a>
+             <!-- space for alignment -->
+               
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <!-- register => register.html -->
+              <a href="./register.html">
+                <button type="button">New User? Register!</button>
+            </a>
+                
+             
+            </form>
+        </center>
+    </fieldset>
+    
+</body>
+</html>
